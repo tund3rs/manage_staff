@@ -1,0 +1,13 @@
+#django
+Django
+django-filter
+django-filters
+djangorestframework-jwt
+djangorestframework
+coreapi # https://github.com/core-api/python-client
+django-cors-headers # https://pypi.org/project/django-cors-headers/
+drf_yasg
+mysqlclient
+pyexcel_xlsx
+django-crontab
+mysql-connector-python

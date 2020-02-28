@@ -53,7 +53,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'staff.urls'
-
+ALLOWED_HOSTS=['*']
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -89,7 +89,8 @@ DATABASES = {
         'NAME': 'db_mysql',
         'USER': 'user',
         'PASSWORD': '1234',
-        'HOST': '127.0.0.1',   # Or an IP Address that your DB is hosted on
+        'HOST': 'db',   # Or an IP Address that your DB is hosted on
+        # 'HOST' : '127.0.0.1',
         'PORT': '3306',
     }
 }
